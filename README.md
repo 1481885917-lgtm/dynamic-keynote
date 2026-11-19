@@ -4,6 +4,16 @@
 
 不是「静态页面 + 壁纸 + 项目符号」。
 
+## 在线演示
+
+| | 地址 |
+|---|---|
+| 项目落地页 | https://1481885917-lgtm.github.io/dynamic-keynote/ |
+| 8 页技术分享 | https://1481885917-lgtm.github.io/dynamic-keynote/examples/skill-system-talk/index.html |
+| 5 页新品发布 | https://1481885917-lgtm.github.io/dynamic-keynote/examples/nova-x1-launch/index.html |
+
+两个演示都是自包含单文件，在线直接放映，无需联网。
+
 ---
 
 ## 安装
