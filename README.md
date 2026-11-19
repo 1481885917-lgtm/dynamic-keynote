@@ -6,6 +6,23 @@
 
 ---
 
+## 安装
+
+clone 到 Claude Code 的 skills 目录即可用：
+
+```bash
+git clone https://github.com/1481885917-lgtm/dynamic-keynote.git \
+  ~/.claude/skills/dynamic-keynote
+```
+
+Windows PowerShell：
+
+```powershell
+git clone https://github.com/1481885917-lgtm/dynamic-keynote.git $HOME\.claude\skills\dynamic-keynote
+```
+
+装好后 Claude Code 会在「做发布会式演示 / pitch deck / 动效演示」时自动调用本 Skill，也可以直接说「用 dynamic-keynote 做一份演示」。
+
 ## 快速开始
 
 ```bash
@@ -39,11 +56,17 @@ dynamic-keynote/
 │   ├── build.py                 # slides.json → 单文件 HTML（含质量校验与日志）
 │   ├── export_video.py          # Playwright 逐帧 + ffmpeg 合成 MP4
 │   └── degrade_to_pptx.js       # PPTXGenJS 降级导出（仅在用户强制要求时）
-├── examples/nova-x1-launch/
-│   ├── slides.json              # 演示编排
-│   ├── slides/*.html            # 每页正文片段
-│   ├── README.md                # 示例拆解
-│   └── index.html               # 构建产物（已生成）
+├── examples/
+│   ├── nova-x1-launch/          # 范例一：5 页科技新品发布
+│   │   ├── slides.json          # 演示编排
+│   │   ├── slides/*.html        # 每页正文片段
+│   │   ├── README.md            # 示例拆解
+│   │   └── index.html           # 构建产物（已生成）
+│   └── skill-system-talk/       # 范例二：8 页技术分享（8 种骨架全覆盖）
+│       ├── slides.json
+│       ├── slides/*.html
+│       ├── README.md
+│       └── index.html
 └── templates/minimal/           # 4 页最小骨架，作为新演示的起点
     ├── slides.json
     └── slides/*.html
