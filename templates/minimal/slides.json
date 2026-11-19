@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "title": "新演示",
+    "description": "dynamic-keynote 演示",
+    "author": "",
+    "palette": "deep-space",
+    "font": "system",
+    "mode": "manual",
+    "dwell": 2.8,
+    "bootMark": "Loading"
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "htmlFile": "slides/01-cover.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 1, "x": 0, "y": 0 },
+      "dwell": 3.4
+    },
+    {
+      "id": "point",
+      "htmlFile": "slides/02-point.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 1.05, "x": 0, "y": 0 },
+      "dwell": 4
+    },
+    {
+      "id": "metrics",
+      "htmlFile": "slides/03-metrics.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 1, "x": 0, "y": 0 },
+      "dwell": 4.6
+    },
+    {
+      "id": "finale",
+      "htmlFile": "slides/04-finale.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 0.97, "x": 0, "y": 0 },
+      "dwell": 4
+    }
+  ]
+}

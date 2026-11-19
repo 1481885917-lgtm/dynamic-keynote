@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Claude Code 技能系统：把重复工作变成资产",
+    "description": "dynamic-keynote 实战：8 页技术分享，全部数据为 dynamic-keynote skill 的真实测量值",
+    "author": "dynamic-keynote",
+    "palette": "deep-space",
+    "font": "system",
+    "mode": "manual",
+    "dwell": 2.6,
+    "bootMark": "SKILL"
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "htmlFile": "slides/01-cover.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 1, "x": 0, "y": 0 },
+      "dwell": 4
+    },
+    {
+      "id": "problem",
+      "htmlFile": "slides/02-problem.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 1.08, "x": 0, "y": 0 },
+      "dwell": 4
+    },
+    {
+      "id": "anatomy",
+      "htmlFile": "slides/03-anatomy.html",
+      "palette": "deep-space",
+      "align": "stretch",
+      "camera": { "z": 1, "x": 0, "y": 0 },
+      "dwell": 5
+    },
+    {
+      "id": "loading",
+      "htmlFile": "slides/04-loading.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 1, "x": 0, "y": 0 },
+      "dwell": 5
+    },
+    {
+      "id": "flow",
+      "htmlFile": "slides/05-flow.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 1.05, "x": 0, "y": 0 },
+      "dwell": 5
+    },
+    {
+      "id": "skillmd",
+      "htmlFile": "slides/06-anatomy-of-skillmd.html",
+      "palette": "ink-champagne",
+      "align": "center",
+      "camera": { "z": 1.18, "x": 0, "y": 0 },
+      "dwell": 5
+    },
+    {
+      "id": "compare",
+      "htmlFile": "slides/07-compare.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 0.98, "x": 0, "y": 0 },
+      "dwell": 5
+    },
+    {
+      "id": "finale",
+      "htmlFile": "slides/08-finale.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 0.96, "x": 0, "y": 0 },
+      "dwell": 5
+    }
+  ]
+}

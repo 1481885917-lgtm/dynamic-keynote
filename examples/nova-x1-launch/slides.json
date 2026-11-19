@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "NOVA X1 新品发布",
+    "description": "dynamic-keynote 示例：五页科技新品发布演示，含动态拆解、镜头推拉、数字滚动与图表生长",
+    "author": "dynamic-keynote",
+    "palette": "deep-space",
+    "font": "system",
+    "mode": "manual",
+    "dwell": 2.8,
+    "bootMark": "NOVA X1"
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "htmlFile": "slides/01-cover.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 1, "x": 0, "y": 0 },
+      "dwell": 3.4
+    },
+    {
+      "id": "structure",
+      "htmlFile": "slides/02-structure.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 1.02, "x": 0, "y": 0 },
+      "dwell": 4.2
+    },
+    {
+      "id": "performance",
+      "htmlFile": "slides/03-performance.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 1, "x": 0, "y": 0 },
+      "dwell": 4.6
+    },
+    {
+      "id": "chip",
+      "htmlFile": "slides/04-chip.html",
+      "palette": "ink-champagne",
+      "align": "center",
+      "camera": { "z": 1.3, "x": 0, "y": 0 },
+      "dwell": 4
+    },
+    {
+      "id": "finale",
+      "htmlFile": "slides/05-finale.html",
+      "palette": "deep-space",
+      "align": "center",
+      "camera": { "z": 0.97, "x": 0, "y": 0 },
+      "dwell": 4
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<div class="slide__inner stack" style="gap:clamp(16px,2vw,34px);max-width:min(1180px,100%)">
+  <div class="stack" style="gap:clamp(6px,.9vw,14px)">
+    <div class="kicker" data-anim="rise">装载策略</div>
+    <h2 class="h1" data-anim="rise" data-delay="0.14">常驻 7.3 KB，按需 27.3 KB</h2>
+  </div>
+
+  <div class="grid-12">
+    <div class="col-4 card card--glow" data-anim="rise" data-delay="0.28">
+      <div class="stat">
+        <div class="stat__num"><span data-anim="count" data-count="7.3" data-count-decimals="1" data-count-dur="1.5">0</span><span class="stat__unit">KB</span></div>
+        <div class="stat__label">常驻索引 · 模型每次都读</div>
+      </div>
+    </div>
+    <div class="col-4 card" data-anim="rise" data-delay="0.42">
+      <div class="stat">
+        <div class="stat__num"><span data-anim="count" data-count="27.3" data-count-decimals="1" data-count-dur="1.5">0</span><span class="stat__unit">KB</span></div>
+        <div class="stat__label">按需加载 · 用到才读</div>
+      </div>
+    </div>
+    <div class="col-4 card" data-anim="rise" data-delay="0.56">
+      <div class="stat">
+        <div class="stat__num"><span data-anim="count" data-count="361.9" data-count-decimals="1" data-count-dur="1.5">0</span><span class="stat__unit">KB</span></div>
+        <div class="stat__label">你实际写下的工程资产</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bars" data-anim-group data-stagger="0.11" data-delay="0.75" style="max-width:100%">
+    <div class="bar-row" data-anim="rise">
+      <span class="label">examples/</span>
+      <div class="bar-track"><div class="bar-fill" data-anim="bar" data-value="100" data-dur="1.2"></div></div>
+      <span class="bar-val">165.6 KB</span>
+    </div>
+    <div class="bar-row" data-anim="rise">
+      <span class="label">assets/</span>
+      <div class="bar-track"><div class="bar-fill" data-anim="bar" data-value="77" data-dur="1.2"></div></div>
+      <span class="bar-val">127.5 KB</span>
+    </div>
+    <div class="bar-row" data-anim="rise">
+      <span class="label">references/</span>
+      <div class="bar-track"><div class="bar-fill" data-anim="bar" data-value="16.5" data-dur="1.2"></div></div>
+      <span class="bar-val">27.3 KB</span>
+    </div>
+    <div class="bar-row" data-anim="rise">
+      <span class="label">scripts/</span>
+      <div class="bar-track"><div class="bar-fill" data-anim="bar" data-value="13.3" data-dur="1.2"></div></div>
+      <span class="bar-val">22.0 KB</span>
+    </div>
+    <div class="bar-row" data-anim="rise">
+      <span class="label">根目录</span>
+      <div class="bar-track"><div class="bar-fill" data-anim="bar" data-value="8.6" data-dur="1.2"></div></div>
+      <span class="bar-val">14.2 KB</span>
+    </div>
+  </div>
+
+  <p class="body" data-anim="rise" data-delay="1.55">实测数据：<span class="accent">dynamic-keynote</span> · 28 个文件 · 全部为本地静态资源，零运行时依赖。</p>
+</div>
